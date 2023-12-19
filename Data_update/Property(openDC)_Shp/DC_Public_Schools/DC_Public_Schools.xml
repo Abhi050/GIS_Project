@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20131122</pubdate>
+                <title>Public Schools</title>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>This dataset includes all identifiable DCPS public elementary schools, middle schools, education campuses, high schools, and special education schools, as well as learning centers. This dataset does not include private or charter schools. School locations were identified from a database from the District of Columbia Public Schools, Office of Facilities Management.</abstract>
+            <purpose>This dataset includes the location of each District of Columbia Public Schools campus.</purpose>
+        </descript>
+        <status>
+            <progress>Complete</progress>
+            <update>As needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-77.13</westbc>
+                <eastbc>-76.90</eastbc>
+                <northbc>39.01</northbc>
+                <southbc>38.78</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>society</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>District of Columbia</placekey>
+                <placekey>Washington DC</placekey>
+            </place>
+        </keywords>
+        <accconst>Other Constraints</accconst>
+        <useconst>This work is licensed under a Creative Commons Attribution 4.0 International License.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>District of Columbia Public Schools</cntorg>
+                </cntorgp>
+            </cntinfo>
+        </ptcontac>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Office of the Chief Technology Officer</cntorg>
+                </cntorgp>
+                <cntpos>GIS Data Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>200 I Street SE, 5th Floor</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20003</postal>
+                </cntaddr>
+                <cntvoice>(202) 727-2277</cntvoice>
+                <cntfax>(202) 727-6857</cntfax>
+                <cntemail>dcgis@dc.gov</cntemail>
+                <hours>8:30 am - 5:00 pm</hours>
+            </cntinfo>
+        </ptcontac>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Office of the Chief Technology Officer</cntorg>
+                </cntorgp>
+                <cntpos>GIS Data Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>200 I Street SE, 5th Floor</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20003</postal>
+                </cntaddr>
+                <cntvoice>(202) 727-2277</cntvoice>
+                <cntfax>(202) 727-6857</cntfax>
+                <cntemail>dcgis@dc.gov</cntemail>
+                <hours>8:30 am - 5:00 pm</hours>
+            </cntinfo>
+        </ptcontac>
+        <datacred>District of Columbia Public Schools</datacred>
+        <native>Esri ArcGIS 13.0.3.36057</native>
+    </idinfo>
+    <dataqual>
+        <lineage>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>19830101</pubdate>
+                        <title>1983 D.C. public school map</title>
+                    </citeinfo>
+                </srccite>
+                <srcscale>24000</srcscale>
+                <typesrc>hardcopyPaper</typesrc>
+                <srccitea>1983 D.C. public school map</srccitea>
+                <srccontr>locations and attributes</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20080901</pubdate>
+                        <title>DC Master School Facility Plan</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>DC Master School Facility Plan</srccitea>
+                <srccontr>attributes</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20070324</pubdate>
+                        <title>Directory and Resource Guide</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>Directory and Resource Guide</srccitea>
+                <srccontr>attributes</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>Updated enrollment data to 2011-2012 SY.</procdesc>
+            </procstep>
+            <procstep>
+                <procdesc>Staff updated the schools for the 2011-2012 school year from the school listing on the web site. School attendance counts are from last year.</procdesc>
+                <procdate>20110907</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Staff moved Takoma Elementary school back to its original location.</procdesc>
+                <procdate>20120104</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Moten Turner ES and Moten ES back to their original locations. Remove River Terrace ES since it is closed. Made other minor changes to reflect conditions for the SY2012-2013.</procdesc>
+                <procdate>20120911</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Updated for 2013/2014 school year.</procdesc>
+                <procdate>20131122</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Changed name and location of Bancroft, Murch, Maury, Hyde-Addison, and Kimball</procdesc>
+                <procdate>20171215</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Staff added School Year 2016-2017 Population Enrollment data.</procdesc>
+                <procdate>20180208</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Staff changed orr es to boone es, address stayed the same.</procdesc>
+                <procdate>20180824</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Staff removed shaw and new north since they are for SY19-20.</procdesc>
+                <procdate>20181012</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>STATUS=Not Open for Shaw and New North and added Facility_ID</procdesc>
+                <procdate>20181019</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Staff updated phone numbers.</procdesc>
+                <procdate>20181026</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Staff changed the following schools address to:  Hyde-Addison Elementary - 3219 O St. NW\nKimball Elementary - 3375 Minnesota Ave. SE\nMaury Elementary - 1250 Constitution Ave. NE\n.</procdesc>
+                <procdate>20181116</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Staff changed the following schools address to:  Hyde-Addison Elementary - 3219 O St. NW\nKimball Elementary - 3375 Minnesota Ave. SE\nMaury Elementary - 1250 Constitution Ave. NE\n.</procdesc>
+                <procdate>20181207</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Staff added Bard High School Early College located at 4430 H St. SE, Washington DC 20019.</procdesc>
+                <procdate>20190125</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>New address for New North MS (405 Sheridan St. NW)</procdesc>
+                <procdate>20190308</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Staff corrected McKinley Technology High School and Jefferson Middle School Academy grades.</procdesc>
+                <procdate>20190409</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Staff updated Bard High School Early College DC FACUSE from High School to High School/Specialized and New added North Middle School phone number.</procdesc>
+                <procdate>20190702</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Renamed New North MS to Ida B. Wells Middle School\n</procdesc>
+                <procdate>20190712</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Staff updated new school layer for 2019-2020 school year</procdesc>
+                <procdate>20190823</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Staff removed CHOICE Academy @ Wash Met and Ron Brown FACUSE=High School/Specialized</procdesc>
+                <procdate>20191108</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>removed Washington Metropolitan High School</procdesc>
+                <procdate>20210205</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Renamed Wilson HS to Jackson-Reed High School</procdesc>
+                <procdate>20220624</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Added Military Road Early Learning Center.  Changed name to LaSalle-Backus Elementary School, Brightwood Elementary School, Takoma Elementary School, and Whittier Elementary School. Changed FACUSE for Cardoza to Middle School/High School.</procdesc>
+                <procdate>20220805</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>renamed Lorraine H. Whitlock Elementary School</procdesc>
+                <procdate>20221209</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Updated multiple school records to include address updates and URL updates.</procdesc>
+                <procdate>20230630</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>D.C. Office of the Chief Technology Officer</cntorg>
+                            <cntper>GIS Data Coordinator</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Data Coordinator</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>200 I Street SE, 5th Floor</address>
+                            <city>Washington</city>
+                            <state>DC</state>
+                            <postal>20003</postal>
+                        </cntaddr>
+                        <cntvoice>(202) 727-2277</cntvoice>
+                        <cntfax>(202) 727-5660</cntfax>
+                        <cntemail>dcgis@dc.gov</cntemail>
+                        <hours>8:30 am - 5:00 pm</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Added MacArthur HS</procdesc>
+                <procdate>20230804</procdate>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Entity point</sdtstype>
+                <ptvctcnt>123</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>DC Public Schools</enttypl>
+                <enttypd>List of DC Public Schools campuses.</enttypd>
+                <enttypds>DC OCTO</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NAME</attrlabl>
+                <attrdef>Public school name.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>ADDRESS</attrlabl>
+                <attrdef>Public school address.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>FACUSE</attrlabl>
+                <attrdef>Public school facility use.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>LEVEL_</attrlabl>
+                <attrdef>Public school level.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>STATUS</attrlabl>
+                <attrdef>Public school status.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PHONE</attrlabl>
+                <attrdef>Public school phone number.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SSL</attrlabl>
+                <attrdef>Square, suffix, and lot number.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>GIS_ID</attrlabl>
+                <attrdef>OCTO GIS sequential identifier.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>WEB_URL</attrlabl>
+                <attrdef>Web page URL.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>MAR_ID</attrlabl>
+                <attrdef>Master Address Repository (MAR) unique identifier.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>BLDG_NUM</attrlabl>
+                <attrdef>Public school building number.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SCH_PROG</attrlabl>
+                <attrdef>Public school program identifier.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>CAPITALGAINS</attrlabl>
+                <attrdef>Flag if school participates in Capital Gains program.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>CAPACITY</attrlabl>
+                <attrdef>Student capacity of public school.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>YEAR_BUILT</attrlabl>
+                <attrdef>Year public school built.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SQUARE_FOOTAGE</attrlabl>
+                <attrdef>Square footage of public school.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>POPULATION_PLAN</attrlabl>
+                <attrdef>Planned population of public school in 2008 Facilities Plan.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>XCOORD</attrlabl>
+                <attrdef>Master Address Repository (MAR) X coordinates (Maryland State Plane Meters).</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>YCOORD</attrlabl>
+                <attrdef>Master Address Repository (MAR) Y coordinates (Maryland State Plane Meters).</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>ZIPCODE</attrlabl>
+                <attrdef>United States Postal Service ZIP code for facility location.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>LONGITUDE</attrlabl>
+                <attrdef>Master Address Repository (MAR) longitude (in decimal degrees).</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>LATITUDE</attrlabl>
+                <attrdef>Master Address Repository (MAR) latitude (in decimal degrees).</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SCHOOL_YEA</attrlabl>
+                <attrdef>Current school year.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>LEA_NAME</attrlabl>
+                <attrdef>Local education agency name.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>LEA_ID</attrlabl>
+                <attrdef>Local education agency ID number.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SCHOOL_NAM</attrlabl>
+                <attrdef>Public school name.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SCHOOL_ID</attrlabl>
+                <attrdef>Public school building number.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>GRADES</attrlabl>
+                <attrdef>Grade range at public school.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PK3</attrlabl>
+                <attrdef>Pre-K3 capacity.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PK4</attrlabl>
+                <attrdef>Pre-K4 capacity.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>UN_CE</attrlabl>
+                <attrdef>Includes students classified as Certificate Option (CE) who are special education students on a certificate non-diploma track.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>GR_1</attrlabl>
+                <attrdef>Number of first grade students.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>GR_10</attrlabl>
+                <attrdef>Number of tenth grade students.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>GR_8</attrlabl>
+                <attrdef>Number of eighth grade students.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>GR_9</attrlabl>
+                <attrdef>Number of ninth grade students.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>GR_2</attrlabl>
+                <attrdef>Number of second grade students.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>GR_3</attrlabl>
+                <attrdef>Number of third grade students.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>GR_6</attrlabl>
+                <attrdef>Number of sixth grade students.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>GR_7</attrlabl>
+                <attrdef>Number of seventh grade students.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>GR_4</attrlabl>
+                <attrdef>Number of fourth grade students.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>GR_5</attrlabl>
+                <attrdef>Number of fifth grade students.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>TOTAL_STUD</attrlabl>
+                <attrdef>Total number of students.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>GR_11</attrlabl>
+                <attrdef>Number of eleventh grade students.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>K</attrlabl>
+                <attrdef>Number of kindergarten students.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>GR_12</attrlabl>
+                <attrdef>Number of twelfth grade students.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>FACILITY_ID</attrlabl>
+                <attrdef>DGS facility identification number.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>GLOBALID</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>CREATOR</attrlabl>
+                <attrdef>Person who created this information.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>CREATED</attrlabl>
+                <attrdef>Time and date when this information was created.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>EDITOR</attrlabl>
+                <attrdef>Person who last updated this information.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>EDITED</attrlabl>
+                <attrdef>Time and date when this information was last updated.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Office of the Chief Technology Officer</cntorg>
+                </cntorgp>
+                <cntpos>GIS Data Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>200 I Street SE, 5th Floor</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20003</postal>
+                </cntaddr>
+                <cntvoice>(202) 727-2277</cntvoice>
+                <cntfax>(202) 727-6857</cntfax>
+                <cntemail>dcgis@dc.gov</cntemail>
+                <hours>8:30 am - 5:00 pm</hours>
+            </cntinfo>
+        </distrib>
+        <distliab>See access and use constraints information.</distliab>
+        <custom>DC datasets can be downloaded from "https://opendata.dc.gov".</custom>
+    </distinfo>
+    <metainfo>
+        <metd>20230824</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Office of the Chief Technology Officer</cntorg>
+                </cntorgp>
+                <cntpos>GIS Data Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>200 I Street SE, 5th Floor</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20003</postal>
+                </cntaddr>
+                <cntvoice>(202) 727-2277</cntvoice>
+                <cntfax>(202) 727-6857</cntfax>
+                <cntemail>dcgis@dc.gov</cntemail>
+                <hours>8:30 am - 5:00 pm</hours>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

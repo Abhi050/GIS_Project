@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20101015</pubdate>
+                <title>Hospitals</title>
+                <geoform>vector digital data</geoform>
+                <lworkcit>
+                    <citeinfo>
+                        <title>DC Geographic Information System</title>
+                    </citeinfo>
+                </lworkcit>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Hospitals. This dataset contains points representing hospital locations, created as part of the DC Geographic Information System (DC GIS) for the D.C. Office of the Chief Technology Officer (OCTO) and participating D.C. government agencies. Hospital locations were identified from public records and heads-up digitized from the snapbase.</abstract>
+            <purpose>Hospitals in the District of Columbia.</purpose>
+        </descript>
+        <status>
+            <progress>Complete</progress>
+            <update>As needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-77.109251</westbc>
+                <eastbc>-76.981038</eastbc>
+                <northbc>38.943929</northbc>
+                <southbc>38.824801</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Hospital</themekey>
+                <themekey>Health Facility</themekey>
+                <themekey>health</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>health</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>DCGIS</placekey>
+                <placekey>DC</placekey>
+                <placekey>District of Columbia</placekey>
+                <placekey>Washington</placekey>
+                <placekey>D.C.</placekey>
+                <placekey>DC GIS</placekey>
+            </place>
+        </keywords>
+        <accconst>Other Constraints</accconst>
+        <useconst>This work is licensed under a Creative Commons Attribution 4.0 International License.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>DC Health</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>899 North Capitol Street NE</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20002</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>(202) 442-5955</cntvoice>
+                <cntfax>(202) 442-4795</cntfax>
+                <cntemail>doh@dc.gov</cntemail>
+                <hours>8:30 am - 5:00 pm</hours>
+            </cntinfo>
+        </ptcontac>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Office of the Chief Technology Officer</cntorg>
+                </cntorgp>
+                <cntpos>GIS Data Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>200 I Street SE, 5th Floor</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20003</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>(202) 727-2277</cntvoice>
+                <cntfax>(202) 727-6857</cntfax>
+                <cntemail>dcgis@dc.gov</cntemail>
+                <hours>8:30 am - 5 pm</hours>
+            </cntinfo>
+        </ptcontac>
+        <datacred>DC Health</datacred>
+        <native>Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>Data believed to be complete and accurate, subject to change. Digital version compared with original source data for accuracy and completeness. In process of validation by source and/or responsible agency.</attraccr>
+        </attracc>
+        <logic>Validated by source and/or responsible agency.</logic>
+        <complete>Data believed to be complete and accurate, subject to change. Digital version compared with original source data for accuracy and completeness. Validated by source and/or responsible agency.</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>In process of validation by source and/or responsible agency.</horizpar>
+            </horizpa>
+        </posacc>
+        <posacc>
+            <vertacc>
+                <vertaccr>N/A</vertaccr>
+            </vertacc>
+        </posacc>
+        <lineage>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>D.C. Hospital Association</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>onLine</typesrc>
+                <srccitea>D.C. Hospital Association</srccitea>
+                <srccontr>locations</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>DC Department of Health website</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>onLine</typesrc>
+                <srccitea>DC Department of Health website</srccitea>
+                <srccontr>location and attributes</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20031125</pubdate>
+                        <title>District of Columbia Pre-Hospital Medical Protocols</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>District of Columbia Pre-Hospital Medical Protocols</srccitea>
+                <srccontr>attributes</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>Removed Riverside Hospital as it closed and changed the address for St. Elizabeth's to Alabama Ave.</procdesc>
+            </procstep>
+            <procstep>
+                <procdesc>OCTO staff phone surveyed each hospital to check attribution and contact information. From that qc effort, staff updated attributes in the layer.</procdesc>
+            </procstep>
+            <procstep>
+                <procdesc>Staff geocoded the hospitals to the Master Address Repository adding the MAR address id to the attribute table. Staff changed the name for the MEDLINK Hospital to The Specialty Hospital of Washington and added the appropriate web link.</procdesc>
+            </procstep>
+            <procstep>
+                <procdesc>Hospitals were identified from lists published by the D.C. Hospital Association website and the D.C. Government. A point shapefile was created by geocoding the addresses. These points were compared to the 1995 orthophotographs, the building footprint layer, and the D.C. Real Property Tax owner points for address and ownership information. The square suffix lot attribute was retained as the link to the data from the D.C. Office of Tax and Revenue. A link to the appropriate website was provided for reference. The geocoded points were then moved to the center of the corresponding buildings and core attributes were added. Removed Columbia Hospital for Children and the old George Washington Hospital and added the new George Washington Hospital. All changes from source information verified August 2002 and February/March 2003. All DC GIS data is stored and exported in Maryland State Plane coordinates NAD 83 meters.</procdesc>
+                <procdate>20010806</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Using a patient protocol transport appendix from the DC Office of Unified Communications, staff added attributes delineating trauma and care types provided at hospitals.</procdesc>
+                <procdate>20080619</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Updated list from DOH.</procdesc>
+                <procdate>20190419</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Updated list from DC Health</procdesc>
+                <procdate>20210312</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Removed MedStar Health and MedStar Clinical Research Center</procdesc>
+                <procdate>20221202</procdate>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Entity point</sdtstype>
+                <ptvctcnt>15</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>DCGIS.HospitalPt</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NAME</attrlabl>
+                <attrdef>Hospital name</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ADDRESS</attrlabl>
+                <attrdef>Number, street name, and quadrant</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SSL</attrlabl>
+                <attrdef>Square, Suffix, Lot (Property Identifier)</attrdef>
+                <attrdefs>OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>WEB_URL</attrlabl>
+                <attrdef>Hospital Web url link</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>TYPE</attrlabl>
+                <attrdef>Hospital type</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>MAR_ID</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>ADULT_MEDICAL</attrlabl>
+                <attrdef>Adult Medical Care services offered</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ADULT_MINOR_TRAUMA</attrlabl>
+                <attrdef>Adult minor trauma services offered</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ADULT_MAJOR_TRAUMA</attrlabl>
+                <attrdef>Adult major trauma services offered</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>CRITICAL_BURNS</attrlabl>
+                <attrdef>Critical burn unit offered</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>OBSTETRICS</attrlabl>
+                <attrdef>Obstetrics services offered</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>PEDIATRIC_MEDICAL</attrlabl>
+                <attrdef>Pediatric medical services offered</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>PEDIATRIC_MAJOR_TRAUMA</attrlabl>
+                <attrdef>Pediatric major trauma services offered</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>PEDIATRIC_MINOR_TRAUMA</attrlabl>
+                <attrdef>Pediatric minor trauma services offered</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>BED_COUNT</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GIS_ID</attrlabl>
+                <attrdef>OCTO GIS sequential identifier</attrdef>
+                <attrdefs>OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SE_ANNO_CAD_DATA</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>GLOBALID</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>CREATOR</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>CREATED</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>EDITOR</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>EDITED</attrlabl>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Office of the Chief Technology Officer</cntorg>
+                </cntorgp>
+                <cntpos>GIS Data Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>200 I Street SE, 5th Floor</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20003</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>(202) 727-2277</cntvoice>
+                <cntfax>(202) 727-6857</cntfax>
+                <cntemail>dcgis@dc.gov</cntemail>
+                <hours>8:30 am - 5 pm</hours>
+            </cntinfo>
+        </distrib>
+        <distliab>See access and use constraints information.</distliab>
+        <custom>DC datasets can be downloaded from "http://opendata.dc.gov".</custom>
+    </distinfo>
+    <metainfo>
+        <metd>20230824</metd>
+        <metrd>01/07/04</metrd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Office of the Chief Technology Officer</cntorg>
+                </cntorgp>
+                <cntpos>GIS Data Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>200 I Street SE, 5th Floor</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20003</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>(202) 727-2277</cntvoice>
+                <cntfax>(202) 727-6857</cntfax>
+                <cntemail>dcgis@dc.gov</cntemail>
+                <hours>8:30 am - 5 pm</hours>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
