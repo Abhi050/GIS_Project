@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20120622</pubdate>
+                <title>Grocery Stores</title>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>We started with ABRA's definition of “Full-Service Grocery Stores” (https://abra.dc.gov/page/full-service-grocery-stores– pulled from the Food System Assessment below), and using those criteria, determined locations that fulfilled the categories in section 1 of the definition.Then, we reviewed the Office of Planning’s Food System Assessment (https://dcfoodpolicycouncilorg.files.wordpress.com/2019/06/2018-food-system-assessment-final-6.13.pdf) list in Appendix D, comparing that to the created from the ABRA definition, which led to the addition of a few more examples that meet or come very close to the full-service grocery store criteria. Here’s the explanation from OP regarding how they came to create their list:“To determine the number of grocery stores in the District, we analyzed existing business licenses in the Department of Consumer and Regulatory Affairs (2018) Business License Verification system (located at https://eservices.dcra.dc.gov/BBLV/Default.aspx). To distinguish grocery stores from convenience stores, we applied the Alcohol and Beverage Regulation Administration’s (ABRA) definition of a full-service grocery store. This definition requires a store to be licensed as a grocery store, sell at least six different food categories, dedicate either 50% of the store’s total square feet or 6,000 square feet to selling food, and dedicate at least 5% of the selling area to each food category. This definition can be found at https://abra.dc.gov/page/full-service-grocery-stores. To distinguish small grocery stores from large grocery stores, we categorized large grocery stores as those 10,000 square feet or more. This analysis was conducted using data from the WDCEP’s Retail and Restaurants webpage (located at https://wdcep.com/dc-industries/retail/) and using ARCGIS Spatial Analysis tools when existing data was not available. Our final numbers differ slightly from existing reports like the DC Hunger Solutions’ Closing the Grocery Store Gap and WDCEP’s Grocery Store Opportunities Map; this difference likely comes from differences in our methodology and our exclusion of stores that have closed.”We also conducted a visual analysis of locations and relied on personal experience of visits to locations to determine whether they should be included in the list.</abstract>
+            <purpose>Locations of grocery stores in Washington, DC. This dataset includes currently-operating grocery stores, as well as some locations which have closed recently.</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20220927</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>Updated on September 27, 2022.</current>
+        </timeperd>
+        <status>
+            <progress>In work</progress>
+            <update>As needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-77.13</westbc>
+                <eastbc>-76.90</eastbc>
+                <northbc>39.01</northbc>
+                <southbc>38.78</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>economy</themekey>
+                <themekey>health</themekey>
+                <themekey>society</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>District of Columbia</placekey>
+                <placekey>Washington DC</placekey>
+            </place>
+        </keywords>
+        <accconst>Other Constraints</accconst>
+        <useconst>This work is licensed under a Creative Commons Attribution 4.0 International License.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Office of the Chief Technology Officer</cntorg>
+                    <cntper>GIS Data Coordinator</cntper>
+                </cntorgp>
+                <cntpos>GIS Data Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>200 I Street SE, 5th Floor</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20003</postal>
+                </cntaddr>
+                <cntvoice>(202) 727-2277</cntvoice>
+                <cntfax>(202) 727-6857</cntfax>
+                <cntemail>dcgis@dc.gov</cntemail>
+                <hours>8:30 am - 5:00 pm</hours>
+            </cntinfo>
+        </ptcontac>
+        <datacred>Office of the Chief Technology Officer</datacred>
+        <native>Version 6.2 (Build 9200) ; Esri ArcGIS 10.8.1.14362</native>
+    </idinfo>
+    <dataqual>
+        <lineage>
+            <procstep>
+                <procdesc>Staff added 2018 status.</procdesc>
+                <procdate>20180810</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Office of the Chief Technology Officer</cntorg>
+                            <cntper>GIS Data Coordinator</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Data Coordinator</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>200 I Street SE, 5th Floor</address>
+                            <city>Washington</city>
+                            <state>DC</state>
+                            <postal>20003</postal>
+                        </cntaddr>
+                        <cntvoice>(202) 727-2277</cntvoice>
+                        <cntfax>(202) 727-5660</cntfax>
+                        <cntemail>dcgis@dc.gov</cntemail>
+                        <hours>8:30 am - 5:00 pm</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Staff updated locations using various sources.</procdesc>
+                <procdate>20200612</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Office of the Chief Technology Officer</cntorg>
+                            <cntper>GIS Data Coordinator</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Data Coordinator</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>200 I Street SE, 5th Floor</address>
+                            <city>Washington</city>
+                            <state>DC</state>
+                            <postal>20003</postal>
+                        </cntaddr>
+                        <cntvoice>(202) 727-2277</cntvoice>
+                        <cntfax>(202) 727-5660</cntfax>
+                        <cntemail>dcgis@dc.gov</cntemail>
+                        <hours>8:30 am - 5:00 pm</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>added Whole Foods at U Street.</procdesc>
+                <procdate>20200724</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Office of the Chief Technology Officer</cntorg>
+                            <cntper>GIS Data Coordinator</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Data Coordinator</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>200 I Street SE, 5th Floor</address>
+                            <city>Washington</city>
+                            <state>DC</state>
+                            <postal>20003</postal>
+                        </cntaddr>
+                        <cntvoice>(202) 727-2277</cntvoice>
+                        <cntfax>(202) 727-5660</cntfax>
+                        <cntemail>dcgis@dc.gov</cntemail>
+                        <hours>8:30 am - 5:00 pm</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Added 3 new grocery stores and a field for "Present in 2022"</procdesc>
+                <procdate>20220930</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Added one new store (Streets Market at 2617 P Street NW) and a new field (PRESENT23) to note which stores are open in 2023 and which have closed.</procdesc>
+                <procdate>20230519</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>D.C. Office of the Chief Technology Officer</cntorg>
+                            <cntper>GIS Data Coordinator</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Data Coordinator</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>200 I Street SE, 5th Floor</address>
+                            <city>Washington</city>
+                            <state>DC</state>
+                            <postal>20003</postal>
+                        </cntaddr>
+                        <cntvoice>(202) 727-2277</cntvoice>
+                        <cntfax>(202) 727-5660</cntfax>
+                        <cntemail>dcgis@dc.gov</cntemail>
+                        <hours>8:30 am - 5:00 pm</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Added two new stores (Whole Foods Market at 7150 12th St NW and Lidl at 3100 14th St NW both opened June 28th) and changed the status of Dawson's Market at 2001 S St NW to note its June 29th closure.</procdesc>
+                <procdate>20230630</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>D.C. Office of the Chief Technology Officer</cntorg>
+                            <cntper>GIS Data Coordinator</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Data Coordinator</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>200 I Street SE, 5th Floor</address>
+                            <city>Washington</city>
+                            <state>DC</state>
+                            <postal>20003</postal>
+                        </cntaddr>
+                        <cntvoice>(202) 727-2277</cntvoice>
+                        <cntfax>(202) 727-5660</cntfax>
+                        <cntemail>dcgis@dc.gov</cntemail>
+                        <hours>8:30 am - 5:00 pm</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Entity point</sdtstype>
+                <ptvctcnt>82</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>GroceryStorePt</enttypl>
+                <enttypd>List of grocery stores in the District of Columbia.</enttypd>
+                <enttypds>DC OCTO</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>STORENAME</attrlabl>
+                <attrdef>Pubic-facing name of the grocery store.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>ADDRESS</attrlabl>
+                <attrdef>Physical address of the grocery store location.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PHONE</attrlabl>
+                <attrdef>Phone number to contact the grocery store.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PRESENT90</attrlabl>
+                <attrdef>Was there a grocery store present in this location in 1990?</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PRESENT95</attrlabl>
+                <attrdef>Was there a grocery store present in this location in 1995?</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PRESENT00</attrlabl>
+                <attrdef>Was there a grocery store present in this location in 2000?</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PRESENT05</attrlabl>
+                <attrdef>Was there a grocery store present in this location in 2005?</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PRESENT08</attrlabl>
+                <attrdef>Was there a grocery store present in this location in 2008?</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>NOTES</attrlabl>
+                <attrdef>Additional notes about this location.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PRESENT09</attrlabl>
+                <attrdef>Was there a grocery store present in this location in 2009?</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PRESENT10</attrlabl>
+                <attrdef>Was there a grocery store present in this location in 2010?</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PRESENT11</attrlabl>
+                <attrdef>Was there a grocery store present in this location in 2011?</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PRESENT12</attrlabl>
+                <attrdef>Was there a grocery store present in this location in 2012?</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PRESENT13</attrlabl>
+                <attrdef>Was there a grocery store present in this location in 2013?</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PRESENT14</attrlabl>
+                <attrdef>Was there a grocery store present in this location in 2014?</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PRESENT15</attrlabl>
+                <attrdef>Was there a grocery store present in this location in 2015?</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PRESENT16</attrlabl>
+                <attrdef>Was there a grocery store present in this location in 2016?</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PRESENT17</attrlabl>
+                <attrdef>Was there a grocery store present in this location in 2017?</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>X_COORD</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Y_COORD</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>WARD</attrlabl>
+                <attrdef>Election ward in which the store is located.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>ADDRESS_ID</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SSL</attrlabl>
+                <attrdef>Square, suffix, and lot number.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>ZIPCODE</attrlabl>
+                <attrdef>United States Postal Service ZIP code for store location.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>GIS_ID</attrlabl>
+                <attrdef>OCTO GIS sequential identifier.</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PRESENT18</attrlabl>
+                <attrdef>Was there a grocery store present in this location in 2018?</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PRESENT22</attrlabl>
+                <attrdef>Was there a grocery store present in this location in 2022?</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PRESENT23</attrlabl>
+                <attrdef>Was there a grocery store present in this location in 2023?</attrdef>
+                <attrdefs>DC OCTO</attrdefs>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Office of the Chief Technology Officer</cntorg>
+                    <cntper>GIS Data Coordinator</cntper>
+                </cntorgp>
+                <cntpos>GIS Data Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>200 I Street SE, 5th Floor</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20003</postal>
+                </cntaddr>
+                <cntvoice>(202) 727-2277</cntvoice>
+                <cntfax>(202) 727-6857</cntfax>
+                <cntemail>dcgis@dc.gov</cntemail>
+                <hours>8:30 am - 5:00 pm</hours>
+            </cntinfo>
+        </distrib>
+        <distliab>See access and use constraints information.</distliab>
+        <custom>DC datasets can be downloaded from "https://opendata.dc.gov".</custom>
+    </distinfo>
+    <metainfo>
+        <metd>20230628</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Office of the Chief Technology Officer</cntorg>
+                    <cntper>GIS Data Coordinator</cntper>
+                </cntorgp>
+                <cntpos>GIS Data Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>200 I Street SE, 5th Floor</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20003</postal>
+                </cntaddr>
+                <cntvoice>(202) 727-2277</cntvoice>
+                <cntfax>(202) 727-6857</cntfax>
+                <cntemail>dcgis@dc.gov</cntemail>
+                <hours>8:30 am - 5:00 pm</hours>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
